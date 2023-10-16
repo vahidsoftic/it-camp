@@ -1,0 +1,39 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(76, 122, 163);
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+/* opacity daje celom sadrzaju kontejnera providnost */
+/* rgba samo kontejner cini providnim ili ne u zavisnosti od toga koju vrednost od 0-1 mu damo */
+.main {
+  background-color: rgba(42, 37, 37, 0.5);
+  width: 400px;
+  height: 400px;
+}
+img {
+  width: 250px;
+  height: 400px;
+  float: left;
+  /* float: right; */
+  margin-right: 10px;
+}
+.box1 {
+  width: 400px;
+  height: 400px;
+  background-color: rgb(106, 134, 30);
+  float: left;
+}
+.box2 {
+  background-color: rgb(96, 39, 148);
+  height: 600px;
+  width: 500px;
+  /* float: right; */
+  float: left;
+}
+
+p.pp {
+  clear: both;
+}

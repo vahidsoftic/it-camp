@@ -1,0 +1,30 @@
+.box {
+  width: 150px;
+  height: 150px;
+  float: right;
+}
+.box1 {
+  background-color: aqua;
+  /* float: left; */
+}
+.box2 {
+  background-color: honeydew;
+  /* float: left; */
+}
+.box3 {
+  background-color: darkgreen;
+  /* clear: both; */
+}
+.box4 {
+  background-color: orange;
+  /* clear: both; */
+}
+.box5 {
+  background-color: darkkhaki;
+}
+.box6 {
+  background-color: fuchsia;
+}
+.box7 {
+  background-color: brown;
+}

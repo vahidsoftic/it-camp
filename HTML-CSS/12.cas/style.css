@@ -1,0 +1,47 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+* {
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+}
+
+.first {
+  background-color: aqua;
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+}
+.first > p {
+  color: blue;
+}
+.first + p {
+  color: aqua;
+}
+.second {
+  background-color: rgb(90, 111, 111);
+  width: 400px;
+  height: 400px;
+  display: inline-block;
+}
+.instagram {
+  color: brown;
+}
+a {
+  color: rgb(212, 16, 16);
+  text-decoration: none;
+  font-style: italic;
+  font-weight: 900;
+}
+a:hover {
+  color: darkgreen;
+}
+a:active {
+  color: black;
+}
+a:visited {
+  color: darksalmon;
+}

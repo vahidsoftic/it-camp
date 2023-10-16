@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS</title>
+
+    <style>
+      body {
+        background-color: aliceblue;
+      }
+      /* h1 predstavlja selektor sto je zapravo pravilo pomocu koojeg pristupamo elementu za koji zelimo da definisemo stilove. */
+      h1 {
+        /* color predstavlja css property odnosno svojstvo */
+        color: red;
+      }
+      /* standardna velicina slova u paragrafu je 16 piksela */
+      p {
+        font-size: 18px;
+        text-indent: 25px;
+        /* text-align: left; standardna vrednost*/
+
+        text-align: justify;
+        /* primenice se poslednje definisano svojstvo */
+        text-align-last: right;
+        /* text-transform: uppercase; */
+        /* text-transform: capitalize; */
+        /* text-transform: none; */
+        text-transform: lowercase;
+      }
+      ul {
+        list-style-position: inside;
+      }
+      .prvi {
+        background-color: blueviolet;
+        width: 400px;
+        height: 400px;
+      }
+      .naslov {
+        color: rgb(19, 204, 40);
+      }
+      /* id ima prednost u odnosu na klasu
+      obicno cemo koristiti id ako zelimo da definisemo neki jedinstveni element. */
+    </style>
+  </head>
+  <body>
+    <!-- klasa tacka
+    id taraba -->
+    <div class="prvi">
+      <h1>Danas radimo css sto je skrcenica od cascading style sheets</h1>
+      <h2 id="naslov" class="naslov">
+        css stilove mozemo primeniti u nekoliko nacina
+      </h2>
+      <ul>
+        <li style="color: aquamarine; text-align: center">inline stilovi</li>
+        <li>stilovi definisani unutar head taga</li>
+        <li>eksterni stilovi</li>
+      </ul>
+      <p>Paragraf prvog kontejnera</p>
+    </div>
+    <div>
+      <h1>
+        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Ea velit dolorem, aliquam nihil nulla illum?
+      </h1>
+      <p>
+        Lorem ipsum dolor sit amet. Lorem ipsum dolor sit, amet consectetur
+        adipisicing elit. Ex animi beatae provident fuga natus distinctio,
+        asperiores voluptatem eius quo molestiae nam aspernatur minima fugiat
+        voluptates dolore est vero neque? Animi autem fuga omnis dicta,
+        blanditiis placeat neque repellat, soluta voluptate maiores sed quia
+        voluptatum temporibus. Lorem ipsum dolor sit amet co Lorem ipsum dolor
+        sit amet consectetur, adipisicing elit. Iste tenetur delectus commodi
+        vero, molestias rem fuga architecto optio deserunt odio, dicta
+        consectetur aliquam unde autem suscipit sequi quo tempora dolores illo.
+        Vel nihil quo reiciendis cum minima voluptatum inventore veniam fugit,
+        laboriosam beatae non saepe sed laborum dolorum recusandae aliquid.
+      </p>
+    </div>
+  </body>
+</html>

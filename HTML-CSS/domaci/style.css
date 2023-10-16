@@ -1,0 +1,103 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: rgb(233, 236, 236);
+}
+
+div {
+  float: left;
+}
+
+.prazno {
+  width: 350px;
+  height: 800px;
+}
+
+.glavno {
+  width: 1000px;
+  height: 800px;
+}
+
+.forma {
+  width: 365px;
+  height: 350px;
+  margin-top: 24vh;
+  float: left;
+  background-color: rgb(255, 254, 254);
+  padding-top: 10px;
+  padding-left: 30px;
+  border: 1px solid rgb(209, 209, 209);
+  border-radius: 10px;
+}
+input {
+  display: block;
+  margin-top: 10px;
+  width: 300px;
+  height: 50px;
+  border: 1px solid rgb(209, 208, 208);
+  border-radius: 5px;
+  font-size: 15px;
+  text-indent: 15px;
+}
+button {
+  font-size: 15px;
+  text-align: center;
+  margin-top: 10px;
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  background-color: rgb(40, 115, 255);
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+p {
+  text-align: center;
+  font-size: small;
+  color: rgb(72, 132, 245);
+  margin-top: 15px;
+}
+.linija {
+  width: 300px;
+  height: 1px;
+  background-color: rgb(196, 196, 196);
+  margin-top: 20px;
+}
+.novi {
+  font-size: 18px;
+  text-align: center;
+  margin-top: 25px;
+  width: 200px;
+  height: 50px;
+
+  font-weight: 600;
+  color: white;
+  background-color: rgb(39, 177, 11);
+  border: 1px solid transparent;
+  border-radius: 5px;
+  margin-left: 50px;
+}
+.naslov {
+  width: 500px;
+  margin-right: 100px;
+}
+.naslov h1 {
+  margin-top: 30vh;
+  margin-bottom: 20px;
+  font-size: 60px;
+  font-weight: 770;
+  color: rgb(17, 101, 228);
+}
+.naslov h3 {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.prazno2 {
+  width: 400px;
+  height: 800px;
+}
